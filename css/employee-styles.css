@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 70px;  
+}
+
+.bio {
+    padding: 20px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid lightslategrey;
+    height: 100%;
+}
+
+.vcenter {
+    display: flex;
+    align-content: center;
+    align-items: center;
+ }
+
+ .emp-img {
+     border: 1px solid lightslategray;
+     object-fit: cover;
+     object-position: center;
+     max-width: 300px;
+ }
