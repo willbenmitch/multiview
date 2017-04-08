@@ -9,9 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <!--javascript-->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!--jquery-->
-       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="js/src/jquery.youtubebackground.js"></script> 
+
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -72,21 +70,31 @@
                 <p class="navbar-text navbar-right">2017</p>
             </div>
         </nav>
+ <!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/src/jquery.youtubebackground.js"></script> 
     <script>
         $('#video').YTPlayer({
         fitToBackground: true,
         videoId: 'LSmgKRx5pBo'
         playerVars: {
-        modestbranding: 0,
-        autoplay: 1,
-        controls: 1,
-        showinfo: 0,
-        branding: 0,
-        rel: 0,
-        autohide: 0,
-        start: 59
-    }
-});
+            modestbranding: 0,
+            autoplay: 1,
+            controls: 1,
+            showinfo: 0,
+            branding: 0,
+            rel: 0,
+            autohide: 0,
+            start: 59}
+        });
+
+        var player = $('#background-video').data('ytPlayer').player;
+    player.pauseVideo();
+    player.playVideo();
+
+    player.addEventListener('onStateChange', function(data){
+    console.log("Player State Change", data);
+    });
     </script>
     </body>
 </html>
