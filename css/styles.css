@@ -26,14 +26,3 @@ body {
     border-radius: 50%;
     margin-top: 10%;
 }
-
-#video{
- position: relative;
- background: transparent;
-}
-
-.ytplayer-container{
- position: absolute;
- top: 0;
- z-index: -1;
-}
