@@ -1,0 +1,37 @@
+/*Use for general styling an apply to all pages*/
+
+* {
+   font-family: 'Roboto', Helvetica, sans-serif;
+   box-sizing: border-box;
+}
+
+.bloat {
+    height: 500px;
+}
+
+.border-radius-initial {
+    border-radius: initial;
+}
+
+.vcenter {
+    display: flex;
+    align-content: center;
+    align-items: center;
+ }
+
+ .emp-img {
+     border: 1px solid lightslategray;
+     object-fit: cover;
+     object-position: center;
+     max-width: 300px;
+ }
+
+ .margin-top {
+     margin-top: 20px;
+ }
+
+ @media screen and (max-width: 767px) {
+     .vcenter {
+         display: inline-block;
+     }
+ }

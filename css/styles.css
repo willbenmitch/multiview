@@ -1,23 +1,13 @@
-* {
-    box-sizing: border-box;
-}
+/*Use for Index specific styling only - for general use case add to helpers.css*/
 
 body {
     min-width: 690px;
+    padding-top: 50px;
 }
     
 .jumbotron {
-    background-color: deepskyblue;
+    background-color: lightsteelblue;
     text-align: center;
-}
-
-.jumbotron h1, .jumbotron h3 {
-    margin-top: 100px;
-}
-
-
-.bio-row {
-    height: 400px;
 }
 
 .bio-panel {
@@ -25,9 +15,8 @@ body {
     border: 1px solid lightgrey;
     height: 100%;
     text-align: center;
-}
-.bio-col {
-    height: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .img {
@@ -36,34 +25,4 @@ body {
     border: 1px solid black;
     border-radius: 50%;
     margin-top: 10%;
-}
-
-.bloat {
-    height: 500px;
-}
-
-.footer {
-    height: 70px;
-    background-color: whitesmoke;
-    border-top: 1px solid lightgrey;
-}
-
-.footer p {
-    float: left;  
-    padding: 20px;
-    margin: 0;
-}
-
-.footer p:last-child {
-    float: right;
-}
-
-@media (max-width: 1000px) {
-    .bio-row {
-        max-height: 300px;
-    }
-
-    .img {
-        margin-top: 5%;
-    }
 }
