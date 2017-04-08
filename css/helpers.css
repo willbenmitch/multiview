@@ -5,6 +5,11 @@
    box-sizing: border-box;
 }
 
+nav a.navbar-text:hover {
+    color:white;
+    text-decoration: none;
+}
+
 .bloat {
     height: 500px;
 }
@@ -29,6 +34,30 @@
  .margin-top {
      margin-top: 20px;
  }
+
+ .slogan {
+     text-transform: uppercase;
+     border: 1px solid lightsteelblue;
+     padding: 20px;
+     margin-top: 20px;
+ }
+
+ .slogan .btn a {
+     text-decoration: none;
+     color:white;
+ }
+
+ form {
+     margin-top: 100px;
+ }
+
+/*to make contact form extend down */
+ @media (min-width: 992px) { 
+    .col-md-6 {
+        width: 100%;
+    }
+ }
+
 
  @media screen and (max-width: 767px) {
      .vcenter {
