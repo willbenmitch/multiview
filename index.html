@@ -5,45 +5,56 @@
 <!--stylesheets-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/helpers.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <!--javascript-->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-text navbar-left" href="index.html">Home</a>
+                <a class="navbar-text navbar-right" href="employees/cathy_wicket.html">Design</a>
+                <a class="navbar-text navbar-right" href="employees/johnny_football.html">Development</a>
+                <a class="navbar-text navbar-right" href="employees/davey_chase.html">Project Management</a>
+            </div>
+        </nav>
         <div class="jumbotron">
-            <h1>Employee Names!</h1>
-            <h3>Company Name</h3>
+            <h1 class="">Alpha Prime</h1>
+            <h2 class="text-muted">Consulting and Contracting</h2>
         </div>
-        <div class="container">
-            <div class="row bio-row">
-                <div class="col-xs-4 col-sm-4 col-lg-4 bio-col">
+        <div class="container" id="employees">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4">
                     <div class="bio-panel">
-                        <a href="employees/cathy_wicket.html"><img src="a.jpg" alt="Johnny Football" class="img img-circle"></a>
-                        <a href="employees/cathy_wicket.html"><h3>Cathy Wicket</h3></a>
-                        <h3>Senior VP</h3>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-lg-4 bio-col">
-                    <div class="bio-panel">
-                        <a href="employees/davey_chase.html"><img src="a.jpg" alt="Cathy Wicket" class="img img-circle"></a>
+                        <a href="employees/davey_chase.html"><img src="img/WDFT - Michael Carroll.jpg" alt="Cathy Wicket" class="img img-circle"></a>
                         <a href="employees/davey_chase.html"><h3>Davey Chase</h3></a>
                         <h3>Project Manager</h3>
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-lg-4 bio-col">
+                <div class="col-xs-12 col-lg-4">
                     <div class="bio-panel">
-                        <a href="employees/johnny_football.html"><img src="a.jpg" alt="Davey Chase" class="img img-circle"></a>
+                        <a href="employees/johnny_football.html"><img src="img/WDFT - Ben Mitchell.jpg" alt="Davey Chase" class="img img-circle"></a>
                         <a href="employees/johnny_football.html"><h3>Johnny Football</h3></a>
-                        <h3>Senior Manager</h3>
+                        <h3>Senior Developer</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <div class="bio-panel">
+                        <a href="employees/cathy_wicket.html"><img src="img/WDFT - Justin Bansal.jpg" alt="Cathy Wicket" class="img img-circle"></a>
+                        <a href="employees/cathy_wicket.html"><h3>Cathy Wicket</h3></a>
+                        <h3>Senior Designer</h3>
                     </div>
                 </div>
             </div>
+             <div class="bloat">
+            </div>
         </div>
-        <div class="bloat">
-        </div>
-        <div class="footer">
-            <p>Made with love</p>
-            <p>2017</p>
-        </div>
+        <nav class="navbar navbar-inverse border-radius-initial" style="margin-bottom: 0px">
+            <div class="container">
+                <p class="navbar-text navbar-left">Made with &#60;3 by Michael, Justin and Ben</p>
+                <p class="navbar-text navbar-right">2017</p>
+            </div>
+        </nav>
     </body>
 </html>
