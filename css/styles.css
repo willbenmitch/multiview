@@ -26,3 +26,16 @@ body {
     border-radius: 50%;
     margin-top: 10%;
 }
+
+.btn {
+    padding: 10px;
+}
+
+.gallery {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.fotorama__wrap {
+    margin: 0 auto;
+}
