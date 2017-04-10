@@ -5,9 +5,12 @@
    box-sizing: border-box;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 nav a.navbar-text:hover {
     color:white;
-    text-decoration: none;
 }
 
 .bloat {
@@ -35,9 +38,13 @@ nav a.navbar-text:hover {
      margin-top: 20px;
  }
 
+ .margin-bottom {
+     margin-bottom: 20px;
+ }
+
  .slogan {
      text-transform: uppercase;
-     border: 1px solid lightsteelblue;
+     /*border: 1px solid lightsteelblue;*/
      padding: 20px;
      margin-top: 20px;
  }
